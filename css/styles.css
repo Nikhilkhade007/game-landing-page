@@ -352,6 +352,10 @@ section{
     }
     .logo{
         transform: scale(0.7);
+        position: relative;
+        left: -1rem;
     }
-    
+    header .navbar.active .nav-list{
+        width: 300px;
+    }
 }
